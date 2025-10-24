@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket Classroom</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="assets/favicon.png" rel="icon">
+</head>
+<body class="bg-dark text-light">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom sticky-top custom-border">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center fw-bold fs-4 px-2" href="#">
+                <img src="assets/brand.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top me-2">
+                Pocket Classroom
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" 
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+                <div class="navbar-nav my-3">
+                    <button role="tab" class="btn btn-outline-light nav-btn me-2 mx-1" data-view="library">Library</button>
+                    <button role="tab" class="btn btn-outline-light nav-btn me-2 mx-1" data-view="author">Author</button>
+                    <button role="tab" class="btn btn-outline-light nav-btn me-2 mx-1" data-view="learn">Learn</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Menu -->
+    <main class="container-fluid py-4 px-2">
+        <section id="library-view" class="view"></section>
+        <section id="author-view" class="view d-none"></section>
+        <section id="learn-view" class="view d-none"></section>
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/main.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

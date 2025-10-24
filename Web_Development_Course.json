@@ -1,0 +1,35 @@
+{
+    "id": 1761320808315,
+    "schema": "pocket-classroom/v1",
+    "meta": {
+        "title": "Web Development Course",
+        "subject": "Programming",
+        "level": "Advanced",
+        "description": ""
+    },
+    "notes": [
+        "This is a professional course!",
+        "Use for Web Developers!"
+    ],
+    "flashcards": [
+        {
+            "front": "Front Content",
+            "back": "Back Content",
+            "known": true
+        }
+    ],
+    "quiz": [
+        {
+            "question": "Which one is a Programming Language!",
+            "options": [
+                "CSS",
+                "Python",
+                "HTML",
+                "Tailwind"
+            ],
+            "answer": 1,
+            "explanation": "Python is a Programming Language!"
+        }
+    ],
+    "updatedAt": "2025-10-24T15:49:34.106Z"
+}
